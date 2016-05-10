@@ -1,0 +1,52 @@
+[Fri Oct 09 21:01:49.445562 2015] [mpm_worker:notice] [pid 16367:tid 139716229084992] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 09 21:01:49.445867 2015] [core:notice] [pid 16367:tid 139716229084992] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 09 21:04:20.553998 2015] [mpm_worker:notice] [pid 16367:tid 139716229084992] AH00295: caught SIGTERM, shutting down
+[Fri Oct 09 21:04:26.512839 2015] [mpm_worker:notice] [pid 16493:tid 140581326661440] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 09 21:04:26.549573 2015] [core:notice] [pid 16493:tid 140581326661440] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 09 21:04:40.611318 2015] [mpm_worker:notice] [pid 16493:tid 140581326661440] AH00295: caught SIGTERM, shutting down
+[Sat Jan 02 07:37:35.721449 2010] [mpm_worker:notice] [pid 12017:tid 140507949205312] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Sat Jan 02 07:37:35.731124 2010] [core:notice] [pid 12017:tid 140507949205312] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Sat Jan 02 15:14:14.797733 2010] [mpm_worker:notice] [pid 12017:tid 140507949205312] AH00295: caught SIGTERM, shutting down
+[Sat Jan 02 17:22:06.110265 2010] [mpm_worker:notice] [pid 20038:tid 139778330965824] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Sat Jan 02 17:22:06.110598 2010] [core:notice] [pid 20038:tid 139778330965824] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Thu Oct 22 21:15:37.453075 2015] [core:warn] [pid 11280:tid 140056226649920] AH00098: pid file /home/2015/y2015g36/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 22 21:15:37.455900 2015] [mpm_worker:notice] [pid 11280:tid 140056226649920] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Thu Oct 22 21:15:37.455973 2015] [core:notice] [pid 11280:tid 140056226649920] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 23 16:15:46.680298 2015] [mpm_worker:notice] [pid 11280:tid 140056226649920] AH00295: caught SIGTERM, shutting down
+[Fri Oct 23 16:15:48.555938 2015] [mpm_worker:notice] [pid 10497:tid 139823462455104] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 23 16:15:48.556223 2015] [core:notice] [pid 10497:tid 139823462455104] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 23 16:15:58.026019 2015] [cgid:error] [pid 10710:tid 139823462455104] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/conelec1.pl' failed
+[Fri Oct 23 16:15:58.027517 2015] [cgid:error] [pid 10499:tid 139823373027072] [client 162.105.39.181:37073] End of script output before headers: conelec1.pl, referer: http://162.105.146.180:8036/conelec.html
+[Fri Oct 23 16:16:19.970476 2015] [cgid:error] [pid 10755:tid 139823462455104] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/conelec1.pl' failed
+[Fri Oct 23 16:16:19.972047 2015] [cgid:error] [pid 10500:tid 139823373027072] [client 162.105.39.181:37078] End of script output before headers: conelec1.pl, referer: http://162.105.146.180:8036/conelec.html
+[Fri Oct 23 16:22:48.152723 2015] [mpm_worker:notice] [pid 10497:tid 139823462455104] AH00295: caught SIGTERM, shutting down
+[Fri Oct 23 16:22:49.556364 2015] [mpm_worker:notice] [pid 24652:tid 140425355433792] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 23 16:22:49.556628 2015] [core:notice] [pid 24652:tid 140425355433792] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 23 16:22:57.591469 2015] [cgid:error] [pid 25095:tid 140425355433792] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/conelec1.pl' failed
+[Fri Oct 23 16:22:57.592461 2015] [cgid:error] [pid 24654:tid 140425266005760] [client 162.105.39.181:37091] End of script output before headers: conelec1.pl, referer: http://162.105.146.180:8036/conelec.html
+[Fri Oct 23 16:23:07.234709 2015] [cgid:error] [pid 25902:tid 140425355433792] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/conelec1.pl' failed
+[Fri Oct 23 16:23:07.236300 2015] [cgid:error] [pid 24659:tid 140425257613056] [client 162.105.39.181:37088] End of script output before headers: conelec1.pl, referer: http://162.105.146.180:8036/conelec.html
+[Fri Oct 23 16:24:15.227314 2015] [mpm_worker:notice] [pid 24652:tid 140425355433792] AH00295: caught SIGTERM, shutting down
+[Fri Oct 23 16:24:29.905379 2015] [mpm_worker:notice] [pid 4922:tid 140720700041024] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 23 16:24:29.905785 2015] [core:notice] [pid 4922:tid 140720700041024] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 23 16:24:42.621543 2015] [cgid:error] [pid 5109:tid 140720700041024] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/conelec1.pl' failed
+[Fri Oct 23 16:24:42.622788 2015] [cgid:error] [pid 4951:tid 140720610612992] [client 162.105.39.181:37095] End of script output before headers: conelec1.pl, referer: http://162.105.146.180:8036/conelec.html
+[Fri Oct 23 16:27:39.617288 2015] [cgid:error] [pid 5833:tid 140720700041024] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/conelec1.pl' failed
+[Fri Oct 23 16:27:39.618516 2015] [cgid:error] [pid 4952:tid 140720610612992] [client 162.105.39.181:36783] End of script output before headers: conelec1.pl
+[Fri Oct 23 16:27:44.898938 2015] [cgid:error] [pid 5841:tid 140720700041024] (8)Exec format error: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/test-cgi' failed
+[Fri Oct 23 16:27:44.900513 2015] [cgid:error] [pid 4954:tid 140720610612992] [client 162.105.39.181:36784] End of script output before headers: test-cgi
+[Fri Oct 23 16:27:48.289273 2015] [cgid:error] [pid 5853:tid 140720700041024] (8)Exec format error: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/test-cgi' failed
+[Fri Oct 23 16:27:48.290450 2015] [cgid:error] [pid 4951:tid 140720602220288] [client 162.105.39.181:36790] End of script output before headers: test-cgi
+[Fri Oct 23 16:32:00.756025 2015] [cgid:error] [pid 7208:tid 140720700041024] (8)Exec format error: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/test-cgi' failed
+[Fri Oct 23 16:32:00.757077 2015] [cgid:error] [pid 5075:tid 140720610612992] [client 162.105.39.181:36410] End of script output before headers: test-cgi
+[Fri Oct 23 16:35:47.622016 2015] [mpm_worker:notice] [pid 4922:tid 140720700041024] AH00295: caught SIGTERM, shutting down
+[Fri Oct 23 16:35:49.636235 2015] [mpm_worker:notice] [pid 8321:tid 140329493292864] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 23 16:35:49.636536 2015] [core:notice] [pid 8321:tid 140329493292864] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 23 16:36:00.266208 2015] [cgid:error] [pid 8661:tid 140329493292864] (8)Exec format error: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/test-cgi' failed
+[Fri Oct 23 16:36:00.267579 2015] [cgid:error] [pid 8324:tid 140329403864832] [client 162.105.39.181:36415] End of script output before headers: test-cgi
+[Fri Oct 23 16:46:34.805989 2015] [mpm_worker:notice] [pid 8321:tid 140329493292864] AH00295: caught SIGTERM, shutting down
+[Fri Oct 23 16:46:36.388871 2015] [mpm_worker:notice] [pid 10653:tid 140314333714240] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 23 16:46:36.389171 2015] [core:notice] [pid 10653:tid 140314333714240] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 23 16:49:10.193919 2015] [mpm_worker:notice] [pid 10653:tid 140314333714240] AH00295: caught SIGTERM, shutting down
+[Fri Oct 23 16:49:11.150409 2015] [mpm_worker:notice] [pid 11709:tid 139645211727680] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 23 16:49:11.150753 2015] [core:notice] [pid 11709:tid 139645211727680] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'

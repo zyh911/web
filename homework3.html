@@ -1,0 +1,53 @@
+<!DOCTYPE>
+
+<!-- homework3 by ZhaoYuhang
+     -->
+
+<html>
+<head>
+<title> Hmoework3 Survey </title>
+</head>
+<body>
+<form 
+    action = "../../cgi-bin/conelec1.pl" 
+    method = "post">
+<h2> Welcome to the Survey </h2>
+<p />
+
+<h4> Your Name: </h4><input type = "text" name = "name">
+<br />
+<br />
+
+<h4> Your Age Category: </h4>
+<p>
+<input type = "radio"  name = "age"  value = "less than 18" /> &lt;18 <br />
+<input type = "radio"  name = "age"  value = "18" /> 18 <br />
+<input type = "radio"  name = "age"  value = "19" /> 19 <br />
+<input type = "radio"  name = "age"  value = "20" checked = "checked"/> 20 <br />
+<input type = "radio"  name = "age"  value = "21" /> 21 <br />
+<input type = "radio"  name = "age"  value = "22" /> 22 <br />
+<input type = "radio"  name = "age"  value = "more than 22" /> &gt;22 <br /> <br />
+</p>
+<h4> Your Gender: </h4>
+<p>
+<input type = "radio"  name = "gender"  value = "female"  
+       checked = "checked" /> Female <br />
+<input type = "radio"  name = "gender"  value = "male" /> 
+    Male <br /> <br />
+</p>
+<h4> Your E-mail Address: </h4><input type = "text" name = "email">
+
+<br />
+<br />
+<input type = "submit"  value = "Submit" />
+</form>
+
+
+<form 
+    action = "../../cgi-bin/conelec2.pl" 
+    method = "get">
+<input type = "submit"  value = "Query" />
+</form>
+</body>
+</html>
+

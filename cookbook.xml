@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="cookbook.xsl"?>
+<cookbook
+  xmlns:xsi =  "http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation = "http://162.105.146.180:8036/homework/cookbook
+                       cookbook.xsd">
+  <recipe>
+    <name>Rhubarb and Custard</name>
+    <ingredient>
+      <name>Milk</name>
+      <amount>15</amount>
+      <unit>ml</unit>
+    </ingredient>
+    <ingredient>
+      <name>Rhubarb</name>
+      <amount>700</amount>
+      <unit>g</unit>
+    </ingredient>
+    <ingredient>
+      <name>Custard Powder</name>
+      <amount>8</amount>
+      <unit>tbs</unit>
+    </ingredient>
+    <preparation>Mix together and put in oven proof dish</preparation>
+    <cooking>Heat in a moderate oven for 40 mins</cooking>
+  </recipe>
+
+  <recipe>
+    <name>鱼香肉丝</name>
+    <ingredient>
+      <name>里脊肉</name>
+      <amount>250</amount>
+      <unit>g</unit>
+    </ingredient>
+    <ingredient>
+      <name>生姜</name>
+      <amount>30</amount>
+      <unit>g</unit>
+    </ingredient>
+    <ingredient>
+      <name>辣椒</name>
+      <amount>25</amount>
+      <unit>g</unit>
+    </ingredient>
+    <preparation>把肉切成丝</preparation>
+    <cooking>边放佐料边炒</cooking>
+  </recipe>
+</cookbook>
+

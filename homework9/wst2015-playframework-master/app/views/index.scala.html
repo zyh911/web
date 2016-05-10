@@ -1,0 +1,58 @@
+@main("Homework 9") {
+    <h1>Question 1</h1>
+    <p>Develop an MVC style web application for the survey in Week 3. Explain your code in 100-500 words.</p>
+    <p>Configure a reverse proxy on Apache for your MVC framework.</p>
+    <p>Optional: set up two MVC frameworks. Configure Apache to handle hot backups and load balancing.</p>
+    <hr/>
+    <p>I've made this repo public on my Github account: <a href="https://github.com/jasminexie/wst2015-playframework" target="_blank">here</a>,
+        for everyone who doesn't have any idea how to program this shit.</p>
+    <p>My code is copyleft; alter it, throw it in your trash, I don't care. Don't credit me, don't thank me; you don't
+        even have to let me know you used it. Just PLEASE don't copy-paste every single thing. Just don't.
+        I'm fine with people copying my code, but I'm NOT fine with anyone copying my English. o_O
+        </p>
+    <p>By the way, thank you thank you and thank you again for being the best friends/classmates a girl can ask for :)</p>
+    <hr/>
+
+<form class="main" style="margin: auto auto 50px auto;" id="form" action="/submit">
+    <label for="name">Name</label><input id="name" type="text" name="name" required="required"/><br/>
+    <label for="age">Age</label><input id="age" type="number" name="age" required="required"/><br/>
+    <label for="male">Gender</label>
+    <input type="radio" id="male" name = "gender"  value = "Male" /> Male <br/>
+    <label for="female">&nbsp;</label>
+    <input type = "radio" id="female" name = "gender"  value = "Female" /> Female <br/>
+    <label for="female">&nbsp;</label>
+    <input type = "radio" id="other" name = "gender"  value = "Other" /> Other <br/>
+    <label for="email">Email</label><input id="email" type="email" name="email" style="margin-bottom: 10px" required="required"/><br/>
+    <div style="text-align: center">
+        <input type = "submit" id="submit" value = "Submit Form"/>
+        <input type = "reset" id="reset" value = "Clear Form" onclick="reset()"/><br/>
+        <input type="button" style="width: 300px;" id="view" value="View all submissions" onclick="window.location.href='/results'"/>
+        <div class="alert alert-success" id="success" style="display:none; "></div>
+        <div class="alert alert-warning" id="info" style="display:none; "></div>
+        <div class="alert alert-error" id="error" style="display:none; "></div>
+    </div>
+</form>
+
+<script>
+    $("#form").keyup(function (e) {
+    if (e.keyCode == 13) {
+    var name = $("#name").val();
+    var age = $("#age").val();
+    var email = $("#email").val();
+    var gender = $("input[name='gender']:checked").val();
+
+    if (age&&name&&gender&&email) {
+    send();
+    }
+    }
+    });
+
+    function reset() {
+  		$(':input')
+  		.not(':button, :submit, :reset, :hidden, :radio')
+  		.val('');
+  		$('input[type=radio]').removeAttr('checked');
+		}
+    </script>
+
+}

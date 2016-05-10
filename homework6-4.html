@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- author:ZhaoYuhang
+	 purpose:studying -->
+<html lang = "en">
+
+<html>
+
+<head>
+
+   <script language="javascript">
+   <!--
+   // Objects
+   
+   var tourOperator = "Ten Bellies Tours"; // a global variable
+   var holidays = [];
+   
+   // An object IS a function
+   function Holiday(destination, duration, cost) {
+     this.destination = destination; //"this" used in same sense as Java
+     this.duration    = duration;
+     this.cost        = cost;
+     this.agent       = tourOperator;     
+   }
+   
+   function makeHoliday(dest, dur, cost) {
+     hol = new Holiday(dest, dur, cost);
+     holidays.push(hol);
+     // To output one named element could use
+     //document.write("Tour Agent is: " + hol.agent);
+   }
+   
+   function outputObject(anObject) {
+     for (f in anObject) {
+       document.write(f + " = " + anObject[f] + "<br />");
+     }
+   }
+   
+   function showHolidays() {
+	 for(var i = 0; i < holidays.length; i ++)
+	 {
+		outputObject(holidays[i]);
+		document.write("<br /><br />");
+	 }
+   }
+
+   -->
+   </script>
+   
+   <title>JavaScript Objects</title>
+</head>
+
+
+<body>
+
+<script language="javascript">
+<!--
+  document.write("<h2>Objects</h2>");
+  document.write("<b>Hi there</b><br /><br />");
+  makeHoliday("Toronto", "2 Weeks", "$400.00");
+  makeHoliday("Chongqing", "1 Week", "$3000.00");
+  makeHoliday("Seoul", "2 Weeks", "$800.00");
+  makeHoliday("Tokyo", "1 Month", "$20000.00");
+  showHolidays();
+//-->
+</script>
+
+
+</body>
+</html>

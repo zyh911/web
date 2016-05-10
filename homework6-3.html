@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- author:ZhaoYuhang
+	 purpose:studying -->
+<html lang = "en">
+
+<html>
+<head>
+
+   <script language="javascript">
+   <!--
+   // 3 types of popup box - alert (messages only), confirm (yes/no), prompt (string)
+   // These popup boxes all use plain text not html (\n is allowed though)
+   // they are all modal (blocking) 
+   
+   function wakeywakey() { // ALERT 
+     window.alert("*****************\n" + "You woke me up...\n\n" +
+                  "I was fast asleep\n*****************" );                      
+   }
+   
+   function askURL() { // CONFIRM 
+     if (! confirm("Will you enter the URL you want to go to please?")) {
+       window.alert("----------\nSob!....\nso\n" +
+                     "you don't want to go to another page.\n--------\n");
+     } else { //PROMPT       
+       var n = prompt("Enter URL", "https://www.baidu.com"); 
+       location = n;
+     }
+   }
+   
+   -->
+   </script>
+   
+   <title>Popups</title>
+
+</head>
+
+
+<body onLoad="wakeywakey()">
+<h1>And today's nonsense is ...</h1>
+Mr Pudding says: Do you want to go to 
+<a href = "#" onMouseOver="window.status='Off to the Lemon';return true;"
+            onMouseOut="self.status='';" >the Lemon</a>?
+<br />or would you prefer the  
+<a href = "#" onMouseOver="self.status='Ah.... I see that you prefer the lime'; return true;"
+            onMouseOut="self.status='';">the Lime</a>?
+
+<p>
+<a href = "#" onClick="askURL(); return false;"><img border=1 src="../images/212.gif" title="Do you want to go to another page?"></a>
+</p>
+
+
+</body>
+</html>

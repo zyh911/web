@@ -1,0 +1,10 @@
+New log file opened at Mon Dec 07 17:01:00 CST 2015 by 3797@Jasmines-MacBook-Pro.local
+Taking next connection to: 54442
+New client attempting to connect on port: 54443-54442
+  Address = /10.1.0.72:54442
+This client on port 54443 has uuid bd884799-05ab-43f8-a0cb-c6eb40e5b510 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-bd884799-05ab-43f8-a0cb-c6eb40e5b510
+Taking next connection to: 54442
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 54442

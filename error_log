@@ -1,0 +1,430 @@
+[Fri Oct 09 21:01:49.445562 2015] [mpm_worker:notice] [pid 16367:tid 139716229084992] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 09 21:01:49.445867 2015] [core:notice] [pid 16367:tid 139716229084992] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 09 21:04:20.553998 2015] [mpm_worker:notice] [pid 16367:tid 139716229084992] AH00295: caught SIGTERM, shutting down
+[Fri Oct 09 21:04:26.512839 2015] [mpm_worker:notice] [pid 16493:tid 140581326661440] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 09 21:04:26.549573 2015] [core:notice] [pid 16493:tid 140581326661440] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 09 21:04:40.611318 2015] [mpm_worker:notice] [pid 16493:tid 140581326661440] AH00295: caught SIGTERM, shutting down
+[Sat Jan 02 07:37:35.721449 2010] [mpm_worker:notice] [pid 12017:tid 140507949205312] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Sat Jan 02 07:37:35.731124 2010] [core:notice] [pid 12017:tid 140507949205312] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Sat Jan 02 15:14:14.797733 2010] [mpm_worker:notice] [pid 12017:tid 140507949205312] AH00295: caught SIGTERM, shutting down
+[Sat Jan 02 17:22:06.110265 2010] [mpm_worker:notice] [pid 20038:tid 139778330965824] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Sat Jan 02 17:22:06.110598 2010] [core:notice] [pid 20038:tid 139778330965824] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Thu Oct 22 21:15:37.453075 2015] [core:warn] [pid 11280:tid 140056226649920] AH00098: pid file /home/2015/y2015g36/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 22 21:15:37.455900 2015] [mpm_worker:notice] [pid 11280:tid 140056226649920] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Thu Oct 22 21:15:37.455973 2015] [core:notice] [pid 11280:tid 140056226649920] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 23 16:15:46.680298 2015] [mpm_worker:notice] [pid 11280:tid 140056226649920] AH00295: caught SIGTERM, shutting down
+[Fri Oct 23 16:15:48.555938 2015] [mpm_worker:notice] [pid 10497:tid 139823462455104] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 23 16:15:48.556223 2015] [core:notice] [pid 10497:tid 139823462455104] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 23 16:15:58.026019 2015] [cgid:error] [pid 10710:tid 139823462455104] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/conelec1.pl' failed
+[Fri Oct 23 16:15:58.027517 2015] [cgid:error] [pid 10499:tid 139823373027072] [client 162.105.39.181:37073] End of script output before headers: conelec1.pl, referer: http://162.105.146.180:8036/conelec.html
+[Fri Oct 23 16:16:19.970476 2015] [cgid:error] [pid 10755:tid 139823462455104] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/conelec1.pl' failed
+[Fri Oct 23 16:16:19.972047 2015] [cgid:error] [pid 10500:tid 139823373027072] [client 162.105.39.181:37078] End of script output before headers: conelec1.pl, referer: http://162.105.146.180:8036/conelec.html
+[Fri Oct 23 16:22:48.152723 2015] [mpm_worker:notice] [pid 10497:tid 139823462455104] AH00295: caught SIGTERM, shutting down
+[Fri Oct 23 16:22:49.556364 2015] [mpm_worker:notice] [pid 24652:tid 140425355433792] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 23 16:22:49.556628 2015] [core:notice] [pid 24652:tid 140425355433792] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 23 16:22:57.591469 2015] [cgid:error] [pid 25095:tid 140425355433792] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/conelec1.pl' failed
+[Fri Oct 23 16:22:57.592461 2015] [cgid:error] [pid 24654:tid 140425266005760] [client 162.105.39.181:37091] End of script output before headers: conelec1.pl, referer: http://162.105.146.180:8036/conelec.html
+[Fri Oct 23 16:23:07.234709 2015] [cgid:error] [pid 25902:tid 140425355433792] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/conelec1.pl' failed
+[Fri Oct 23 16:23:07.236300 2015] [cgid:error] [pid 24659:tid 140425257613056] [client 162.105.39.181:37088] End of script output before headers: conelec1.pl, referer: http://162.105.146.180:8036/conelec.html
+[Fri Oct 23 16:24:15.227314 2015] [mpm_worker:notice] [pid 24652:tid 140425355433792] AH00295: caught SIGTERM, shutting down
+[Fri Oct 23 16:24:29.905379 2015] [mpm_worker:notice] [pid 4922:tid 140720700041024] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 23 16:24:29.905785 2015] [core:notice] [pid 4922:tid 140720700041024] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 23 16:24:42.621543 2015] [cgid:error] [pid 5109:tid 140720700041024] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/conelec1.pl' failed
+[Fri Oct 23 16:24:42.622788 2015] [cgid:error] [pid 4951:tid 140720610612992] [client 162.105.39.181:37095] End of script output before headers: conelec1.pl, referer: http://162.105.146.180:8036/conelec.html
+[Fri Oct 23 16:27:39.617288 2015] [cgid:error] [pid 5833:tid 140720700041024] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/conelec1.pl' failed
+[Fri Oct 23 16:27:39.618516 2015] [cgid:error] [pid 4952:tid 140720610612992] [client 162.105.39.181:36783] End of script output before headers: conelec1.pl
+[Fri Oct 23 16:27:44.898938 2015] [cgid:error] [pid 5841:tid 140720700041024] (8)Exec format error: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/test-cgi' failed
+[Fri Oct 23 16:27:44.900513 2015] [cgid:error] [pid 4954:tid 140720610612992] [client 162.105.39.181:36784] End of script output before headers: test-cgi
+[Fri Oct 23 16:27:48.289273 2015] [cgid:error] [pid 5853:tid 140720700041024] (8)Exec format error: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/test-cgi' failed
+[Fri Oct 23 16:27:48.290450 2015] [cgid:error] [pid 4951:tid 140720602220288] [client 162.105.39.181:36790] End of script output before headers: test-cgi
+[Fri Oct 23 16:32:00.756025 2015] [cgid:error] [pid 7208:tid 140720700041024] (8)Exec format error: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/test-cgi' failed
+[Fri Oct 23 16:32:00.757077 2015] [cgid:error] [pid 5075:tid 140720610612992] [client 162.105.39.181:36410] End of script output before headers: test-cgi
+[Fri Oct 23 16:35:47.622016 2015] [mpm_worker:notice] [pid 4922:tid 140720700041024] AH00295: caught SIGTERM, shutting down
+[Fri Oct 23 16:35:49.636235 2015] [mpm_worker:notice] [pid 8321:tid 140329493292864] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 23 16:35:49.636536 2015] [core:notice] [pid 8321:tid 140329493292864] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 23 16:36:00.266208 2015] [cgid:error] [pid 8661:tid 140329493292864] (8)Exec format error: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/test-cgi' failed
+[Fri Oct 23 16:36:00.267579 2015] [cgid:error] [pid 8324:tid 140329403864832] [client 162.105.39.181:36415] End of script output before headers: test-cgi
+[Fri Oct 23 16:46:34.805989 2015] [mpm_worker:notice] [pid 8321:tid 140329493292864] AH00295: caught SIGTERM, shutting down
+[Fri Oct 23 16:46:36.388871 2015] [mpm_worker:notice] [pid 10653:tid 140314333714240] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 23 16:46:36.389171 2015] [core:notice] [pid 10653:tid 140314333714240] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 23 16:49:10.193919 2015] [mpm_worker:notice] [pid 10653:tid 140314333714240] AH00295: caught SIGTERM, shutting down
+[Fri Oct 23 16:49:11.150409 2015] [mpm_worker:notice] [pid 11709:tid 139645211727680] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 23 16:49:11.150753 2015] [core:notice] [pid 11709:tid 139645211727680] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 23 16:57:38.275703 2015] [cgid:error] [pid 11714:tid 139645097121536] [client 162.105.39.181:36512] AH01264: script not found or unable to stat: /home/2015/y2015g36/apache/cgi-bin/test.gui
+[Fri Oct 23 16:57:48.385960 2015] [cgid:error] [pid 11711:tid 139645023155968] [client 162.105.39.181:36518] AH01264: script not found or unable to stat: /home/2015/y2015g36/apache/cgi-bin/test-gui
+[Fri Oct 23 16:58:16.324944 2015] [cgid:error] [pid 14208:tid 139645211727680] (8)Exec format error: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/test-cgi' failed
+[Fri Oct 23 16:58:16.326132 2015] [cgid:error] [pid 11714:tid 139645088728832] [client 162.105.39.181:36517] End of script output before headers: test-cgi
+[Fri Oct 23 17:02:49.824341 2015] [mpm_worker:notice] [pid 11709:tid 139645211727680] AH00295: caught SIGTERM, shutting down
+[Fri Oct 23 17:02:49.976363 2015] [mpm_worker:notice] [pid 15507:tid 139637010466624] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 23 17:02:49.976677 2015] [core:notice] [pid 15507:tid 139637010466624] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 23 17:07:53.331414 2015] [mpm_worker:notice] [pid 15507:tid 139637010466624] AH00295: caught SIGTERM, shutting down
+[Fri Oct 23 17:07:54.470588 2015] [mpm_worker:notice] [pid 16859:tid 140640805607232] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Fri Oct 23 17:07:54.470843 2015] [core:notice] [pid 16859:tid 140640805607232] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+Use of uninitialized value $file_lines[1] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 49, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[2] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 49, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[3] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 49, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[4] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 49, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[5] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 49, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[6] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 49, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[7] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 49, <SURVDAT> line 1.
+Use of uninitialized value within @file_votes in join or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 61.
+Use of uninitialized value within @file_votes in join or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 61.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 72.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 72.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 72.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 72.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 72.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 72.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 72.
+Use of uninitialized value within @file_votes in join or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 61.
+Use of uninitialized value within @file_votes in join or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 61.
+Use of uninitialized value within @file_votes in join or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 61.
+Use of uninitialized value within @file_votes in join or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 61.
+Use of uninitialized value within @file_votes in join or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 61.
+Use of uninitialized value within @file_votes in join or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 61.
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 67, near "0;"
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 67, near "++) "
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 70, near "}"
+Execution of /home/2015/y2015g36/apache/cgi-bin/conelec1.pl aborted due to compilation errors.
+[Fri Oct 23 19:21:10.900891 2015] [cgid:error] [pid 16861:tid 140640665822976] [client 162.105.39.181:35387] End of script output before headers: conelec1.pl, referer: http://162.105.146.180:8036/homework/homework3.html
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 68, near "0;"
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 68, near "++) "
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 71, near "}"
+Execution of /home/2015/y2015g36/apache/cgi-bin/conelec1.pl aborted due to compilation errors.
+[Fri Oct 23 19:28:30.086046 2015] [cgid:error] [pid 16861:tid 140640657430272] [client 162.105.39.181:35393] End of script output before headers: conelec1.pl, referer: http://162.105.146.180:8036/homework/homework3.html
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 68, near "0;"
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 68, near "++) "
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 71, near "}"
+Execution of /home/2015/y2015g36/apache/cgi-bin/conelec1.pl aborted due to compilation errors.
+[Fri Oct 23 19:28:35.153792 2015] [cgid:error] [pid 16864:tid 140640674215680] [client 162.105.39.181:35396] End of script output before headers: conelec1.pl, referer: http://162.105.146.180:8036/homework/homework3.html
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 68, near "0;"
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 68, near "++) "
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 71, near "}"
+Execution of /home/2015/y2015g36/apache/cgi-bin/conelec1.pl aborted due to compilation errors.
+[Fri Oct 23 19:28:45.090803 2015] [cgid:error] [pid 16862:tid 140640657430272] [client 162.105.39.181:35397] End of script output before headers: conelec1.pl, referer: http://162.105.146.180:8036/homework/homework3.html
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 68, near "0;"
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 68, near "++) "
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 72, near "}"
+Execution of /home/2015/y2015g36/apache/cgi-bin/conelec1.pl aborted due to compilation errors.
+[Fri Oct 23 19:29:56.844834 2015] [cgid:error] [pid 16861:tid 140640649037568] [client 162.105.39.181:35403] End of script output before headers: conelec1.pl, referer: http://162.105.146.180:8036/homework/homework3.html
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 68, near "0;"
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 68, near "++) "
+syntax error at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 72, near "}"
+Execution of /home/2015/y2015g36/apache/cgi-bin/conelec1.pl aborted due to compilation errors.
+[Fri Oct 23 19:33:06.112787 2015] [cgid:error] [pid 16862:tid 140640649037568] [client 162.105.39.181:35407] End of script output before headers: conelec1.pl, referer: http://162.105.146.180:8036/homework/homework3.html
+Argument "  1    1" isn't numeric in addition (+) at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 43, <SURVDAT> line 1.
+Use of uninitialized value $num in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 42.
+Use of uninitialized value $num in addition (+) at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 43.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 4.
+[Fri Oct 23 21:19:24.317912 2015] [cgid:error] [pid 10505:tid 140640805607232] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/conelec3.pl' failed
+[Fri Oct 23 21:19:24.319560 2015] [cgid:error] [pid 16861:tid 140640615466752] [client 162.105.38.230:54849] End of script output before headers: conelec3.pl, referer: http://162.105.146.180:8036/cgi-bin/conelec2.pl?
+[Fri Oct 23 21:19:39.506781 2015] [cgid:error] [pid 10583:tid 140640805607232] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/conelec3.pl' failed
+[Fri Oct 23 21:19:39.508569 2015] [cgid:error] [pid 17064:tid 140640615466752] [client 162.105.38.230:54852] End of script output before headers: conelec3.pl, referer: http://162.105.146.180:8036/cgi-bin/conelec2.pl?
+Name "main::dnum" used only once: possible typo at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 17.
+Name "main::file_lines" used only once: possible typo at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 32.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 5.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 5.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 6.
+Name "main::dnum" used only once: possible typo at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 17.
+Name "main::file_lines" used only once: possible typo at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 32.
+Name "main::dnum" used only once: possible typo at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 17.
+Name "main::file_lines" used only once: possible typo at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 32.
+Name "main::dnum" used only once: possible typo at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 17.
+Name "main::file_lines" used only once: possible typo at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 32.
+Unquoted string "dnum" may clash with future reserved word at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 46.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[0] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 1.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 44, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[0] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 1.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 44, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[0] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 1.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 44, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[0] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 1.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 44, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[0] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 46, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[1] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 46, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[2] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 46, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[3] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 46, <SURVDAT> line 1.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 74.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 74.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 74.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 74.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 5.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 5.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 6.
+Use of uninitialized value $num in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 42.
+Use of uninitialized value $num in addition (+) at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 43.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Unquoted string "dnum" may clash with future reserved word at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 46.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[0] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 1.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 44, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[0] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 1.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 44, <SURVDAT> line 1.
+Use of uninitialized value $num in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 42.
+Use of uninitialized value $num in addition (+) at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 43.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Unquoted string "dnum" may clash with future reserved word at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 46.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[0] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 1.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 44, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $file_lines[0] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 1.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 44, <SURVDAT> line 1.
+Use of uninitialized value $num in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 42.
+Use of uninitialized value $num in addition (+) at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 43.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Unquoted string "dnum" may clash with future reserved word at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 46.
+Bareword found in conditional at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 54.
+Use of uninitialized value $num in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 42.
+Use of uninitialized value $num in addition (+) at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 43.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Unquoted string "dnum" may clash with future reserved word at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 46.
+Bareword found in conditional at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 54.
+Name "main::num1" used only once: possible typo at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 44.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Unquoted string "dnum" may clash with future reserved word at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 46.
+Bareword found in conditional at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 75.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Unquoted string "dnum" may clash with future reserved word at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 46.
+Bareword found in conditional at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 75.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Unquoted string "dnum" may clash with future reserved word at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 46.
+Use of uninitialized value $ww in addition (+) at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 50.
+Use of uninitialized value $ww in addition (+) at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 64.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $file_lines[0] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 44, <SURVDAT> line 2.
+Unquoted string "dnum" may clash with future reserved word at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 46.
+Use of uninitialized value $file_lines[1] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 31, <SURVDAT> line 2.
+Use of uninitialized value $ww in addition (+) at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 50.
+Use of uninitialized value $ww in addition (+) at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 64.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec3.pl line 70.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $file_lines[0] in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $line in concatenation (.) or string at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 44, <SURVDAT> line 2.
+Use of uninitialized value $num in chomp at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 42.
+Use of uninitialized value $num in addition (+) at /home/2015/y2015g36/apache/cgi-bin/conelec1.pl line 43.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 5.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 4.
+[Fri Oct 23 22:15:14.954012 2015] [mpm_worker:notice] [pid 16859:tid 140640805607232] AH00295: caught SIGTERM, shutting down
+[Sat Oct 24 19:16:33.544500 2015] [mpm_worker:notice] [pid 18844:tid 139868582385472] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Sat Oct 24 19:16:33.544837 2015] [core:notice] [pid 18844:tid 139868582385472] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 5.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+[Sat Oct 24 20:10:58.270342 2015] [mpm_worker:notice] [pid 18844:tid 139868582385472] AH00295: caught SIGTERM, shutting down
+[Sat Oct 24 20:11:58.046169 2015] [mpm_worker:notice] [pid 20436:tid 140002430994240] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Sat Oct 24 20:11:58.046484 2015] [core:notice] [pid 20436:tid 140002430994240] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Sat Oct 24 20:12:50.517479 2015] [mpm_worker:notice] [pid 20436:tid 140002430994240] AH00295: caught SIGTERM, shutting down
+[Mon Oct 26 11:32:40.881041 2015] [mpm_worker:notice] [pid 31657:tid 139857230042944] AH00292: Apache/2.4.16 (Unix) configured -- resuming normal operations
+[Mon Oct 26 11:32:40.908509 2015] [core:notice] [pid 31657:tid 139857230042944] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 30 10:48:04.560794 2015] [mpm_worker:notice] [pid 31657:tid 139857230042944] AH00295: caught SIGTERM, shutting down
+[Fri Oct 30 10:51:52.085760 2015] [mpm_worker:notice] [pid 10247:tid 140035569456960] AH00292: Apache/2.4.16 (Unix) PHP/5.6.13 configured -- resuming normal operations
+[Fri Oct 30 10:51:52.085892 2015] [core:notice] [pid 10247:tid 140035569456960] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 30 10:58:49.260142 2015] [mpm_worker:notice] [pid 10247:tid 140035569456960] AH00295: caught SIGTERM, shutting down
+[Fri Oct 30 10:58:53.381730 2015] [mpm_worker:notice] [pid 3644:tid 140548655417152] AH00292: Apache/2.4.16 (Unix) PHP/5.6.13 configured -- resuming normal operations
+[Fri Oct 30 10:58:53.381861 2015] [core:notice] [pid 3644:tid 140548655417152] AH00094: Command line: '/home/2015/y2015g36/apache/bin/httpd'
+[Fri Oct 30 10:58:58.939785 2015] [:error] [pid 3647:tid 140548538943232] [client 162.105.38.152:58951] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/2015/y2015g36/apache/htdocs/first.php on line 2
+[Fri Oct 30 14:42:40.226024 2015] [:error] [pid 3874:tid 140548513765120] [client 10.0.136.77:59614] PHP Parse error:  syntax error, unexpected 'php2' (T_STRING), expecting ',' or ';' in /home/2015/y2015g36/apache/htdocs/homework/php1.php on line 27, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 14:43:58.712002 2015] [:error] [pid 3646:tid 140548505372416] [client 10.0.136.77:59616] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/2015/y2015g36/apache/htdocs/homework/php1.php on line 17, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 14:44:49.139441 2015] [:error] [pid 3649:tid 140548505372416] [client 10.0.136.77:59617] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/2015/y2015g36/apache/htdocs/homework/php1.php on line 25, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 15:17:33.760923 2015] [:error] [pid 3874:tid 140548480194304] [client 10.0.136.77:59745] script '/home/2015/y2015g36/apache/htdocs/homework/php2.php' not found or unable to stat, referer: http://162.105.146.180:8036/homework/php1.php
+[Fri Oct 30 15:21:10.506655 2015] [:error] [pid 3649:tid 140548471801600] [client 10.0.136.77:59757] script '/home/2015/y2015g36/apache/htdocs/homework/php2.php' not found or unable to stat, referer: http://162.105.146.180:8036/homework/php1.php
+[Fri Oct 30 15:27:42.927673 2015] [:error] [pid 3649:tid 140548438230784] [client 10.0.20.245:2517] script '/home/2015/y2015g36/apache/htdocs/homework/php2.php' not found or unable to stat, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:12:26.602527 2015] [:error] [pid 3874:tid 140548429838080] [client 10.0.136.77:60009] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:14:52.064088 2015] [:error] [pid 3646:tid 140548421445376] [client 10.0.136.77:60012] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:14:52.064267 2015] [:error] [pid 3646:tid 140548421445376] [client 10.0.136.77:60012] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:14:52.064308 2015] [:error] [pid 3646:tid 140548421445376] [client 10.0.136.77:60012] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:14:52.064340 2015] [:error] [pid 3646:tid 140548421445376] [client 10.0.136.77:60012] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:14:52.064371 2015] [:error] [pid 3646:tid 140548421445376] [client 10.0.136.77:60012] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:14:52.064401 2015] [:error] [pid 3646:tid 140548421445376] [client 10.0.136.77:60012] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:14:52.064431 2015] [:error] [pid 3646:tid 140548421445376] [client 10.0.136.77:60012] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:14:52.064460 2015] [:error] [pid 3646:tid 140548421445376] [client 10.0.136.77:60012] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:14:52.064619 2015] [:error] [pid 3646:tid 140548421445376] [client 10.0.136.77:60012] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:14:52.064709 2015] [:error] [pid 3646:tid 140548421445376] [client 10.0.136.77:60012] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:14:52.064743 2015] [:error] [pid 3646:tid 140548421445376] [client 10.0.136.77:60012] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:18:47.416000 2015] [:error] [pid 3647:tid 140548421445376] [client 10.0.136.77:60016] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:18:47.416165 2015] [:error] [pid 3647:tid 140548421445376] [client 10.0.136.77:60016] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:18:47.416214 2015] [:error] [pid 3647:tid 140548421445376] [client 10.0.136.77:60016] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:18:47.416249 2015] [:error] [pid 3647:tid 140548421445376] [client 10.0.136.77:60016] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:18:47.416280 2015] [:error] [pid 3647:tid 140548421445376] [client 10.0.136.77:60016] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:18:47.416311 2015] [:error] [pid 3647:tid 140548421445376] [client 10.0.136.77:60016] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:18:47.416342 2015] [:error] [pid 3647:tid 140548421445376] [client 10.0.136.77:60016] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:18:47.416372 2015] [:error] [pid 3647:tid 140548421445376] [client 10.0.136.77:60016] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:18:47.416402 2015] [:error] [pid 3647:tid 140548421445376] [client 10.0.136.77:60016] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:18:47.416451 2015] [:error] [pid 3647:tid 140548421445376] [client 10.0.136.77:60016] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 16:18:47.416487 2015] [:error] [pid 3647:tid 140548421445376] [client 10.0.136.77:60016] PHP Notice:  Undefined index: Guest_Num in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 54, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 17:45:49.141614 2015] [:error] [pid 3646:tid 140548396267264] [client 162.105.39.231:46185] PHP Parse error:  syntax error, unexpected 'fg' (T_STRING), expecting ')' in /home/2015/y2015g36/apache/htdocs/homework/php2.php on line 51, referer: http://162.105.146.180:8036/homework/php3.php
+[Fri Oct 30 17:59:20.323457 2015] [:error] [pid 3874:tid 140548354303744] [client 162.105.39.231:46231] PHP Notice:  Undefined index: age in /home/2015/y2015g36/apache/htdocs/homework/php1.php on line 15, referer: http://162.105.146.180:8036/homework/homework4-1.html
+[Fri Oct 30 18:21:36.371108 2015] [:error] [pid 3649:tid 140548455016192] [client 162.105.39.231:45911] PHP Notice:  Undefined index: checkbox in /home/2015/y2015g36/apache/htdocs/homework/php3.php on line 27, referer: http://162.105.146.180:8036/homework/php2.php
+[Fri Oct 30 18:26:35.811030 2015] [:error] [pid 3874:tid 140548480194304] [client 162.105.39.231:45984] PHP Warning:  Invalid argument supplied for foreach() in /home/2015/y2015g36/apache/htdocs/homework/php3.php on line 27, referer: http://162.105.146.180:8036/homework/php2.php
+[Fri Oct 30 18:26:35.811152 2015] [:error] [pid 3874:tid 140548480194304] [client 162.105.39.231:45984] PHP Notice:  Undefined variable: checkbox in /home/2015/y2015g36/apache/htdocs/homework/php3.php on line 31, referer: http://162.105.146.180:8036/homework/php2.php
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 2.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 3.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 4.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+[Tue Nov 10 23:02:09.305945 2015] [cgid:error] [pid 3647:tid 140548505372416] [client 162.105.39.201:39914] AH01262: Options ExecCGI is off in this directory: /home/2015/y2015g36/apache/htdocs/homework/devNull.cgi, referer: http://162.105.146.180:8036/homework/homework6-5.html
+[Tue Nov 10 23:06:26.048325 2015] [cgid:error] [pid 3874:tid 140548522157824] [client 162.105.39.201:39924] AH01262: Options ExecCGI is off in this directory: /home/2015/y2015g36/apache/htdocs/homework/devNull.cgi, referer: http://162.105.146.180:8036/homework/homework6-5.html
+[Tue Nov 10 23:06:48.340659 2015] [cgid:error] [pid 3646:tid 140548345911040] [client 162.105.39.201:39932] AH01262: Options ExecCGI is off in this directory: /home/2015/y2015g36/apache/htdocs/homework/devNull.cgi, referer: http://162.105.146.180:8036/homework/homework6-5.html
+[Tue Nov 10 23:14:05.632243 2015] [cgid:error] [pid 3647:tid 140548471801600] [client 162.105.39.201:39463] AH01262: Options ExecCGI is off in this directory: /home/2015/y2015g36/apache/htdocs/homework/devNull.cgi, referer: http://162.105.146.180:8036/homework/homework6-5.html
+[Tue Nov 10 23:21:53.075659 2015] [cgid:error] [pid 3874:tid 140548496979712] [client 162.105.39.201:39564] AH01262: Options ExecCGI is off in this directory: /home/2015/y2015g36/apache/htdocs/homework/devNull.cgi, referer: http://162.105.146.180:8036/homework/homework6-5.html
+[Tue Nov 10 23:21:59.718609 2015] [cgid:error] [pid 3646:tid 140548513765120] [client 162.105.39.201:39570] AH01262: Options ExecCGI is off in this directory: /home/2015/y2015g36/apache/htdocs/homework/devNull.cgi, referer: http://162.105.146.180:8036/homework/homework6-5.html
+[Tue Nov 10 23:22:41.627316 2015] [cgid:error] [pid 3874:tid 140548488587008] [client 162.105.39.201:39574] AH01262: Options ExecCGI is off in this directory: /home/2015/y2015g36/apache/htdocs/homework/devNull.cgi, referer: http://162.105.146.180:8036/homework/homework6-5.html
+[Tue Nov 10 23:22:46.351331 2015] [cgid:error] [pid 3874:tid 140548488587008] [client 162.105.39.201:39574] AH01262: Options ExecCGI is off in this directory: /home/2015/y2015g36/apache/htdocs/homework/devNull.cgi, referer: http://162.105.146.180:8036/homework/homework6-5.html
+[Tue Nov 10 23:23:13.750520 2015] [cgid:error] [pid 29568:tid 140548655417152] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/dump.pl' failed
+[Tue Nov 10 23:23:13.751711 2015] [cgid:error] [pid 3874:tid 140548480194304] [client 162.105.39.201:39580] End of script output before headers: dump.pl, referer: http://162.105.146.180:8036/homework/homework6-5.html
+[Wed Nov 11 00:08:57.905336 2015] [cgid:error] [pid 29900:tid 140548655417152] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/dump.pl' failed
+[Wed Nov 11 00:08:57.906715 2015] [cgid:error] [pid 3647:tid 140548455016192] [client 162.105.39.201:39234] End of script output before headers: dump.pl, referer: http://162.105.146.180:8036/homework/homework6-5.html
+[Wed Nov 11 00:09:32.841892 2015] [cgid:error] [pid 29913:tid 140548655417152] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/dump.pl' failed
+[Wed Nov 11 00:09:32.843317 2015] [cgid:error] [pid 3647:tid 140548438230784] [client 162.105.39.201:39237] End of script output before headers: dump.pl, referer: http://162.105.146.180:8036/homework/homework6-5.html
+[Wed Nov 11 00:17:45.275681 2015] [cgid:error] [pid 29943:tid 140548655417152] (13)Permission denied: AH01241: exec of '/home/2015/y2015g36/apache/cgi-bin/dump.pl' failed
+[Wed Nov 11 00:17:45.277057 2015] [cgid:error] [pid 3647:tid 140548446623488] [client 162.105.39.201:39266] End of script output before headers: dump.pl, referer: http://162.105.146.180:8036/homework/homework6-5.html
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 42, <SURVDAT> line 1.
+Use of uninitialized value $count in array element at /home/2015/y2015g36/apache/cgi-bin/conelec2.pl line 43, <SURVDAT> line 2.
+[Wed Nov 11 00:19:30.834251 2015] [cgid:error] [pid 3646:tid 140548480194304] [client 162.105.39.201:39273] malformed header from script 'dump.pl': Bad header: <!DOCTYPE>, referer: http://162.105.146.180:8036/homework/homework6-5.html

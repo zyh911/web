@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- author:ZhaoYuhang
+	 purpose:studying -->
+<html lang = "en">
+
+<html>
+
+<head>
+  <title>homework4</title>
+  <meta charset = "utf-8" />
+  <link rel = "stylesheet" type = "text/css" href = "../index.css" />
+  <style type = "text/css">
+	body
+	{
+		background: bisque;
+	}
+	p.question
+	{
+		color: brown;
+	}
+	p.answer
+	{
+		color: black;
+	}
+  </style>
+</head>
+
+<body>
+
+<p class = "question">1. Give the SELECT command to answer the question Who will go to the party held in Peking University?</p>
+
+<blockquote>
+	<p class = "answer">SELECT guest.Guest_Name<br />
+	FROM guest, party, guest_party<br />
+	WHERE party.Place = 'Peking University'<br />
+	AND guest_party.Party_Num = party.Party_Num<br />
+	AND guest_party.Guest_Num = guest.Guest_Num</p>
+</blockquote>
+<hr />
+<hr />
+
+<p class = "question">2. Figure out a way to obtain the column labels returned by mysql_fetch_array.</p>
+	
+<blockquote>
+	<p class = "answer">$result = mysql_query($query);<br />
+	$row = mysql_fetch_array($result);<br />
+	while($next_element = each($row))<br />
+	{<br /><blockquote>
+		$next_element = each($row);<br />
+		$next_key = $next_element['key'];<br />
+		print "<th>" . $next_key . "</th>";<br /></blockquote>
+	}</p>
+</blockquote>
+<hr />
+<hr />
+
+<p class = "question">3. Tell the difference between a CGI program and a PHP program executed by a Web Server.</p>
+	
+<blockquote>
+	<p class = "answer">A CGI program is completely formed by a certain script language, for example, perl. But a PHP program is embedded in HTML framework. In other words, you can use HTML grammer in .php file, but cannot use it in .pl file.<br />
+	PHP programs is very efficient against other CUI programs.<br />
+	CUI programs can do better than PHP programs in security.</p>
+</blockquote>
+
+<a href = "../index.html">go to homepage</a>
+<br />
+<a href = "homework4-1.html">Survey2.0</a>
+</body>
+
+</html>
+	

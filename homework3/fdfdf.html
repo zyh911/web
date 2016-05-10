@@ -1,0 +1,16 @@
+<html>
+<head>
+<script language = "javascript">
+var num = 0;
+function addcount()
+{
+	num ++;
+	count.innerHTML += "<br />" + num;
+	setTimeout("addcount()", 2000);
+}
+</script>
+</head>
+<body>
+<div id = "count" onclick = "addcount()" >click me</div>
+</body>
+</html>

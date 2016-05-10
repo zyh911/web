@@ -1,0 +1,37 @@
+div.header, div.footer
+{
+	padding: 0.5em;
+	color: white;
+	clear: both;
+	border: 1px solid black;
+}
+div.left
+{
+	float: left;
+	background-image: url(/images/1234.png);
+	border-left: 1px solid black;
+	width: 13%;
+	height: 896px;
+	margin-left: 0;
+	padding: 1em;
+}
+div.right
+{
+	background-image: url(/images/4321.png);
+	float: right;
+	border-right: 1px solid black;
+	width: 13%;
+	margin: 0;
+	height: 896px;
+	padding: 1em;
+}
+div.content
+{
+	background-image: url(/images/999.jpg);
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	margin-left: 15.5%;
+	margin-right: 15.5%;
+	height: 800px;
+	padding: 4em;
+}

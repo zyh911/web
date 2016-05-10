@@ -1,0 +1,43 @@
+@(infoList: List[models.Information])
+
+@main("Results - Homework 9") {
+
+<h1>Results</h1>
+    <form class='main' style='width: auto; border-width: 0px' action="/delete" id="form">
+        <table style='margin-left: auto; margin-right: auto;'>
+            <tr>
+                <td>Entry no.</td>
+                <td>Entry</td>
+                <td>Delete</td>
+            </tr>
+
+        @for(person <- infoList) {
+            <tr>
+                <td style='text-align: center'>@person.getId()</td>
+                <td>
+                    <label for='@person.getId()' style='width: auto'>
+                        <ul style='padding-left: 0px; padding-right: 10px'>
+                            <li> Name: @person.getName() </li>
+                            <li> Age: @person.getAge() </li>
+                            <li> Gender: @person.getGender() </li>
+                            <li> Email: @person.getEmail() </li>
+                        </ul>
+                    </label>
+                </td>
+                <td><input name='del"@person.getId()' id="@person.getId()" value='@person.getId()' type='checkbox'/></td>
+            </tr>
+        }
+
+        </table>
+        <br/>
+
+        <div style='text-align: center; display: block; margin: 0px auto;'>
+            <input type='submit' value='Delete entries'/>
+            <input type='reset' value='Clear form'/>
+            <input type='button' value='Back' onclick='window.location.href="/"' style='width: 150px'/>
+        </div>
+
+    </form>
+
+
+}

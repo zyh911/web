@@ -1,0 +1,46 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>@title</title>
+        <link rel="stylesheet" media="screen" href='http://162.105.146.180:8122/css/default.css'>
+        <link rel="stylesheet" href='http://162.105.146.180:8122/css/form.css'>
+        <script src='http://162.105.146.180:8122/js/jquery-2.1.4.js' type="text/javascript"></script>
+    </head>
+    <body>
+
+    <header>
+    <div class="block">
+        <div class="cell imagecell" style="float: left; clear:all">
+            <img src='http://162.105.146.180:8122/resources/img/web10.png' class="imageicon" alt="Web software technologies"/>
+        </div>
+        <div class="cell" style="float: left; clear: all;">
+            <a id="heading" style="color: black"><h1>Homework 8.</h1></a>
+            <p>Week 9: Web Application Server and Programming Frameworks</p>
+            <p>Dec 7, 2015 - Dec 11, 2015</p>
+            <p><a href="http://162.105.146.180:8122/homework/" target="_self">Back to Homework page</a></p>
+        </div>
+    </div>
+    </header>
+
+    <div class="panel">
+        @content
+    </div>
+
+    <footer>
+        <a href="#">top</a>
+        <hr>
+        <p>
+        For Web Software Technology class, Fall Semester 2015-16.
+        <br /> Jasmine Xie, Peking University.
+        </p>
+    </footer>
+
+
+    </body>
+
+
+
+</html>

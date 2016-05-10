@@ -1,0 +1,55 @@
+<?xml version = "1.0"?>
+<!-- cookbook.xs -->
+
+<xs:schema
+    xmlns:xs =  "http://www.w3.org/2001/XMLSchema"
+    targetNamespace = "http://162.105.146.180:8036/homework/cookbook"
+    xmlns = "http://162.105.146.180:8036/homework/cookbook"
+    elementFormDefault = "qualified">
+
+    <xs:element name = "cookbook">
+       <xs:complexType>
+          <xs:sequence>
+             <xs:element name="recipe" maxOccurs="unbounded">
+                   <xs:complexType>
+                      <xs:sequence>
+                         <xs:element name = "name"
+                                            type =  "xs:string"
+                                            minOccurs = "1"
+                                            maxOccurs = "1"/>
+                         <xs:element name = "ingredient">
+                            <xs:complexType>
+                               <xs:sequence>
+                                  <xs:element name = "name"
+                                            type =  "xs:string"
+                                            minOccurs = "1"
+                                            maxOccurs = "1"/>
+                                  <xs:element name = "amount">
+                                    <xs:simpleType>
+                                      <xs:restriction base = "xs:decimal">
+                                        <xs:minInclusive value = "0" />
+                                      </xs:restriction>
+                                    </xs:simpleType>
+                                  </xs:element>
+                                  <xs:element name = "unit"
+                                            type =  "xs:string"
+                                            minOccurs = "1"
+                                            maxOccurs = "1"/>
+                               </xs:sequence>
+                            </xs:complexType>
+                         </xs:element>
+                         <xs:element name = "cooking"
+                                            type =  "xs:string"
+                                            minOccurs = "1"
+                                            maxOccurs = "1"/>
+                         <xs:element name = "preparation"
+                                            type =  "xs:string"
+                                            minOccurs = "1"
+                                            maxOccurs = "1"/>
+                      </xs:sequence>
+                   </xs:complexType>
+               </xs:element>
+          </xs:sequence>
+       </xs:complexType>
+    </xs:element>
+</xs:schema>
